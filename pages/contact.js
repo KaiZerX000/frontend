@@ -3,24 +3,24 @@ import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function index() {
+export default function contact() {
   return (
     <>
     <Head>
-      <title>หน้าแรก</title>
+      <title>jett</title>
     </Head>
   
   <header>
-<nav className="navbar navbar-expand-lg bg-info"> 
+<nav className="navbar navbar-expand-lg bg-danger">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <a className="navbar-brand" href="#">NIKE 011</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" href="/.">หน้าแรก</Link>
+          <Link className="nav-link active" aria-current="page" href="/.">THARAPHON</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" href="/about">เกี่ยวกับเรา</Link>
@@ -30,8 +30,10 @@ export default function index() {
             บริการของเรา
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">1</a></li>
-            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">Dunk</a></li>
+            <li><a className="dropdown-item" href="#">SCB</a></li>
+            <li><hr className="dropdown-divider" /></li>
+            <li><a className="dropdown-item" href="#">JORDAN</a></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -48,25 +50,7 @@ export default function index() {
 
 <div>
 
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="1000">
-      <img src="/panda.jpg" class="d-block w-100" alt="cow" />
-    </div>
-    <div class="carousel-item" data-bs-interval="1000">
-      <img src="/panda2.png" class="d-block w-100" alt="chick" />
-    </div>
-  </div>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
 
 </div>
@@ -75,8 +59,18 @@ export default function index() {
 <br />
 <br /> 
 <main>
+  <center>
+<div className="w3-padding-64 w3-content w3-text-grey" id="contact">
+  <h2 className="w3-text-light-grey">contact</h2>
+  <hr style={{width: 200}} className="w3-opacity" />
+  <div className="w3-section">
+    <p><i className="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right" /> CHIANGMAI , THAILAND</p>
+    <p><i className="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right" /> Phone: 0638452833</p>
+    <p><i className="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: supsup2546@gmail.com</p>
+  </div><br />
 
-
+</div>
+</center>
 </main>
 <br />
 <br />

@@ -3,17 +3,17 @@ import Head from 'next/head'
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function index() {
+export default function about() {
   return (
     <>
     <Head>
-      <title>หน้าแรก</title>
+      <title>Tharaphon</title>
     </Head>
   
   <header>
-<nav className="navbar navbar-expand-lg bg-info"> 
+<nav className="navbar navbar-expand-lg bg-danger">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
+    <a className="navbar-brand" href="#">NIKE 011</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
     </button>
@@ -30,8 +30,10 @@ export default function index() {
             บริการของเรา
           </a>
           <ul className="dropdown-menu">
-            <li><a className="dropdown-item" href="#">1</a></li>
-            <li><a className="dropdown-item" href="#">2</a></li>
+            <li><a className="dropdown-item" href="#">Dunk</a></li>
+            <li><a className="dropdown-item" href="#">SB</a></li>
+            <li><hr className="dropdown-divider" /></li>
+            <li><a className="dropdown-item" href="#">JORDAN</a></li>
           </ul>
         </li>
         <li className="nav-item">
@@ -46,36 +48,36 @@ export default function index() {
   </div>
 </nav>
 
-<div>
-
-<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="1000">
-      <img src="/panda.jpg" class="d-block w-100" alt="cow" />
-    </div>
-    <div class="carousel-item" data-bs-interval="1000">
-      <img src="/panda2.png" class="d-block w-100" alt="chick" />
-    </div>
-  </div>
-
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-
-</div>
 </header>
 <br />
 <br />
 <br /> 
 <main>
-
+<div className="container marketing">
+  {/* Three columns of text below the carousel */}
+  <div className="row">
+    <div className="col-lg-4">
+    <img src="/nike3.png" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
+      <h2 className="fw-normal">Nike Air Force 1 '07 Low White Swoosh Panda</h2>
+      <p>Love is in the Air รองเท้าบาสรุ่นออริจินัลกลับมาพร้อมสีสันสุดหวานและรายละเอียดเล็กๆ ชวนให้หลงใหลอย่าง “Nike Love” ที่โลโก้ Swoosh และป้ายร้อยเชือก</p>
+      <p><a className="btn btn-secondary" href="https://www.nike.com/th/t/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-07-ZMwtBc">View details »</a></p>
+    </div>{/* /.col-lg-4 */}
+    <div className="col-lg-4">
+    <img src="/nike2.png" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
+      <h2 className="fw-normal">Nike Air Force 1 '07 Low White Swoosh Panda</h2>
+      <p>Nike Air Force 1 '07 Low White Swoosh Panda</p>
+      <p><a className="btn btn-secondary" href="https://sasom.co.th/shoes/DV0788-001/nike-air-force-1--07-low-white-swoosh-panda">View details »</a></p>
+    </div>{/* /.col-lg-4 */}
+    <div className="col-lg-4">
+    <img src="/nike4.png" className="bd-placeholder-img rounded-circle" alt="gtr2"width={140} height={140} />
+      <h2 className="fw-normal">Nike Air Force 1 High Original
+รองเท้าผู้หญิง</h2>
+      <p>สไตล์รองเท้าของคุณพุ่งทะยานถึงชั้นบรรยากาศด้วย AF1 High ที่มาพร้อมส่วนเน้นสี Sky Blue ส่วนหุ้มข้อบุนวมทรงไฮคัทและสายรัดตีนตุ๊กแกช่วยให้คุณรู้สึกมั่นคงเพียงพอเสมอ ขณะที่รูระบายอากาศและระบบลดแรงกระแทก Air แบบคลาสสิกทำให้คุณรู้สึกเหมือนกําลังเดินอยู่บนก้อนเมฆ</p>
+      <p><a className="btn btn-secondary" href="https://www.nike.com/th/t/%E0%B8%A3%E0%B8%AD%E0%B8%87%E0%B9%80%E0%B8%97%E0%B9%89%E0%B8%B2%E0%B8%9C%E0%B8%B9%E0%B9%89-air-force-1-high-original-5Sg6M0">View details »</a></p>
+    </div>{/* /.col-lg-4 */}
+  </div>{/* /.row */}
+ 
+</div>
 
 </main>
 <br />
