@@ -7,7 +7,7 @@ export default function contact() {
   return (
     <>
     <Head>
-      <title>jett</title>
+      <title>THARAPHON</title>
     </Head>
   
   <header>
